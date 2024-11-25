@@ -1,0 +1,111 @@
+* {
+    align-items: center;
+    align-content: center;
+}
+
+#board {
+    height: fit-content;
+    width: 750px;
+    align-items: center;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pawn {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+
+}
+
+#draggable1 {
+    top: 50px;
+    left: 50px;
+}
+
+#draggable2 {
+    top: 50px;
+    left: 200px;
+}
+
+#draggable3 {
+    top: 50px;
+    left: 350px;
+}
+
+#draggable4 {
+    top: 50px;
+    left: 500px;
+}
+
+#draggable5 {
+    top: 200px;
+    left: 50px;
+}
+
+#draggable6 {
+    top: 200px;
+    left: 200px;
+}
+
+#draggable7 {
+    top: 200px;
+    left: 350px;
+}
+
+#draggable8 {
+    top: 200px;
+    left: 500px;
+}
+
+#draggable9 {
+    top: 350px;
+    left: 50px;
+}
+
+#draggable10 {
+    top: 350px;
+    left: 200px;
+}
+
+#draggable11 {
+    top: 350px;
+    left: 350px;
+}
+
+#draggable12 {
+    top: 350px;
+    left: 500px;
+}
+
+#draggable13 {
+    top: 500px;
+    left: 50px;
+}
+
+#draggable14 {
+    top: 500px;
+    left: 200px;
+}
+
+#draggable15 {
+    top: 500px;
+    left: 350px;
+}
+
+#draggable16 {
+    top: 500px;
+    left: 500px;
+}
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    cursor: grab;
+    border-radius: 8px;
+}
